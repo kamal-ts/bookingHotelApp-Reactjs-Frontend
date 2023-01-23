@@ -71,7 +71,7 @@ const Header = ({ type }) => {
                             onClick={() => setSelectMenu(m)}
                         >
                             <span className={`transition-all ${selectMenu === m ? 'text-sky-400' : ''}`}>{m}</span>
-                            <div className={`mt-3 transition-all w-auto group-hover:scale-x-150 group-hover:border-b-2 border-slate-400 ${selectMenu === m ? 'border-b-2  w-auto scale-x-150 border-sky-400' : ''}`}></div>
+                            <div className={`mx-auto mt-3 transition-all w-0 group-hover:w-full group-hover:border-b-2 border-slate-400 ${selectMenu === m ? 'border-b-2  w-auto scale-x-150 border-sky-400' : ''}`}></div>
                         </div>
                     ))}
                 </div>

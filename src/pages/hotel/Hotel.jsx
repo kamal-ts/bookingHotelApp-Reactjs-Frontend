@@ -28,14 +28,14 @@ const Hotel = () => {
       </div>
       <div className='container mx-auto px-3 lg:px-36 py-5 text-slate-800'>
         <div className='flex flex-col gap-2 relative'>
-          <h1 className='lg:text-4xl text-xl font-bold'>Grand Hotel</h1>
-          <button className='py-2 px-4 bg-sky-400 font-bold absolute right-0 rounded-2xl invisible sm:visible transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white'>Reserve or Book Now</button>
-          <div className='flex flex-row text-sm items-center gap-x-2'>
+          <h1 className='lg:text-4xl text-2xl font-bold'>Grand Hotel</h1>
+          <button className='absolute right-0 invisible sm:visible mt-2 py-2 px-3 rounded-xl font-bold bg-sky-400 border-2 border-sky-400 text-slate-800 text-base hover:text-sky-500 hover:bg-transparent transition duration-300'>Reserve or Book Now</button>
+          <div className='flex flex-row text-sm items-center gap-x-2 bg-slate-200 self-start px-1 rounded-lg'>
             <FontAwesomeIcon icon={faLocationDot} />
             <span>Elton St 125 New york</span>
           </div>
           <span className='text-sky-700 text-base'>Excell location - 500m from center</span>
-          <span className='text-green-600 text-base font-semibold'>Book a stay over $114 at this property and get a free airport taxi</span>
+          <span className='text-base'>Book a stay over $114 at this property and get a free airport taxi</span>
           <div className='flex sm:flex-row flex-col justify-between'>
             <div className='flex-grow h-[30rem] bg-cover bg-center rounded-xl  transition-all duration-200 delay-150'
               style={{ backgroundImage: `url(${selectImage})` }}
@@ -67,7 +67,7 @@ const Hotel = () => {
                 <h1 className='text-xl font-bold'>Perfect for a 9-nigh stay!</h1>
                 <p className='text-sm'>Located in the real heart of Krakow, this property has an axcellent location score of 9.8!</p>
               </div>
-              <button className='mt-2 bg-sky-400 w-full py-2 font-bold rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white'>Reserve or Book Now!</button>
+              <button className='mt-3 w-full py-2 rounded-xl font-bold bg-sky-400 border-2 border-sky-400 text-slate-800 text-base hover:text-sky-500 hover:bg-transparent transition duration-300'>Reserve or Book Now!</button>
             </div>
 
           </div>
